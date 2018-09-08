@@ -1,11 +1,13 @@
 # DashbuttonDaemon
 This repository provides a daemon that executes code if a dashbutton is pressed
 
-## Detect Dashbutton and MAC address
+## Prepare your dashbutton
 
-I wrote a small script *DetectDashbutton.py* to detect Dashbuttons and their MAC address.
+I'm using Amazon Dashbuttons for this project. First you need to configure your dashbutton using a device like a mobile phone as described by Amazon in the manual shipped with your new dashbutton. Enter your WLAN credentials and proceed but when you reach the step to select a product close your app without selection one of them. This ensures that the dashbutton will not order any products once it is pushed. But it still wakes up and connects to the WLAN while being pushed. 
 
-To us it just execute the following command in the root folder of this archive and press the Dashbutton afterwards.
+## Detect dashbutton and MAC address
+
+I wrote a small script *DetectDashbutton.py* to detect Dashbuttons and their MAC address. To us it just execute the following command in the root folder of this archive and press the Dashbutton afterwards.
 
 ```
 sudo python3 DetectDashbutton.py
