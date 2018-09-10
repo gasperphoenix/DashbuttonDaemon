@@ -1,5 +1,11 @@
 # DashbuttonDaemon
-This repository provides a daemon that executes code if a dashbutton is pressed
+This repository provides a daemon that executes code if a dashbutton is pressed - [https://gasperphoenix.github.io/DashbuttonDaemon](https://gasperphoenix.github.io/DashbuttonDaemon)
+
+## Usage examples
+
+I combined the DasbuttonDaemon with the code of my [FritzBox](https://github.com/gasperphoenix/FritzBox) project to switch a night light (connected to a Fritz!DECT switchable plug) on and off using an Amazon dashbutton.
+
+You could also use it to call a special HTTP-request on [IFTT](https://ifttt.com/discover) to execute your own services opening a door to many useful applications.
 
 ## Prepare your dashbutton
 
