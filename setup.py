@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "dashbutton_daemon",
-    version = "0.1",
+    version = "0.3",
     license = "GNU General Public License v3.0, 29 June 2007",
     author = "Dennis Jung, Dipl.-Ing. (FH)",
     author_email = "Dennis.Jung@it-jung.com",
