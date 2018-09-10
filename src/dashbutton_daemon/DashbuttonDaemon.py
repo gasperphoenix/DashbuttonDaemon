@@ -95,6 +95,8 @@ def arp_pkt(pkt):
 
 
 def button_pressed(button):
+    # Put your own code here
+    
     global now_ts
     global button1_ts
     global button2_ts
